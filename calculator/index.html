@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Make By Tonmoy</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon"  href="/f19c7e914f0adb59c0833d00d09f1ea7.png">
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" placeholder="0" id="inputBox">
+        <div>
+            <button class="oparator os">AC</button>
+            <button class="oparator oss">DEL</button>
+            <button class="oparator">%</button>
+            <button class="oparator">/</button>
+        </div>
+
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="oparator">*</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="oparator">-</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="oparator">+</button>
+        </div>
+        <div>
+            <button>0</button>
+            <button>00</button>
+            <button>.</button>
+            <button class="equalBtn">=</button>
+        </div>
+        <p class="name"><span class="copy">&copy;</span> By Tonmoy</p>
+    </div>
+
+<script>
+    if(navigator.serviceWorker){
+        navigator.serviceWorker.register('sw.js')
+    }
+</script>
+    <script src="app.js"></script>
+</body>
+
+</html>
